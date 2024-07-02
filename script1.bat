@@ -1,1 +1,1 @@
-timeout /t 3000 /nobreak
+timeout 3000 /nobreak
