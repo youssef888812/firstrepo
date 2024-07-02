@@ -27,7 +27,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ./script1.bat
+        run: |
+            chmod +x ./script1.bat
+            ./script1.bat
         
   # This workflow contains a single job called "build"
   test:
@@ -41,4 +43,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ./script.bat
+        run:  |
+            chmod +x ./script.bat
+            ./script.bat
