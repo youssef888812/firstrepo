@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: python srcipt.py
+        run: python script.py
         
   # This workflow contains a single job called "build"
   test:
@@ -41,4 +41,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: python srcipt.py
+        run: python script.py
