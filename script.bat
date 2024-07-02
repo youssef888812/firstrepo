@@ -1,2 +1,2 @@
 echo off
-timeout /t 300 /nobreak
+timeout 300 /nobreak
