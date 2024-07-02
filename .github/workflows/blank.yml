@@ -27,9 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: |
-            chmod +x ./script1.bat
-            ./script1.bat
+        run: python srcipt.py
         
   # This workflow contains a single job called "build"
   test:
@@ -43,6 +41,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:  |
-            chmod +x ./script.bat
-            ./script.bat
+        run: python srcipt.py
